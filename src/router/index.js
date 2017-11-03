@@ -12,15 +12,15 @@ export default new Router({
       path: '/',
       name: 'main',
       component: Main,
-      // children:[
-      // 	{path:'/coupon',component:'../views/coupon.vue'},
-      // 	{path:'/consume',component:'../views/consume.vue'},
-      // 	{path:'/stored',component:'../views/stored.vue'},
-      // 	{path:'/profile',component:'../views/profile.vue'},
-      // 	{path:'/turntable',component:'../views/turntable.vue'},
-      // 	{path:'/calendar',component:'../views/calendar.vue'},
-      // 	{path:'/integral',component:'../views/integral.vue'}
-      // ]
+      children:[
+      	{path:'/coupon',component:require('../views/coupon.vue')},
+      	{path:'/consume',component:require('../views/consume.vue')},
+      	{path:'/stored',component:require('../views/stored.vue')},
+      	{path:'/profile',component:require('../views/profile.vue')},
+      	{path:'/turntable',component:require('../views/turntable.vue')},
+      	{path:'/calendar',component:require('../views/calendar.vue')},
+      	{path:'/integral',component:require('../views/integral.vue')}
+      ]
     },
     {
       path: '/register',
