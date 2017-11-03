@@ -20,7 +20,7 @@ const router = new VueRouter({
 FastClick.attach(document.body)
 
 Vue.config.productionTip = false
-ghftgfhrfth
+
 /* eslint-disable no-new */
 new Vue({
   router,
