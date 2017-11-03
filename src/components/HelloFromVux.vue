@@ -12,7 +12,6 @@
 
 <script>
 import { Group, Cell } from 'vux'
-import { Group, Cell } from 'vux'
 
 export default {
   components: {
