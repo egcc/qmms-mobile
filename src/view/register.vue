@@ -7,15 +7,27 @@
       <div>
         <group>
           <x-input type="text" placeholder="姓名">
-            <span slot="label" class="icon-wrap">
-              <span class="red">*</span>
-              <span class="icon icon-huiyuan"></span>
-            </span>
+            <icon slot="label" font-class="icon-huiyuan" required></icon>
           </x-input>
         </group>
         <group>
-          <x-input type="text" placeholder="姓名">
-            <icon slot="label" font-class="icon-huiyuan"></icon>
+          <x-input type="text" placeholder="手机号码">
+            <icon slot="label" font-class="icon-shouji" required></icon>
+          </x-input>
+        </group>
+        <group>
+          <x-input type="text" placeholder="验证码">
+            <icon slot="label" font-class="icon-yanzhengma" required></icon>
+          </x-input>
+        </group>
+        <group>
+          <x-input type="text" placeholder="生日">
+            <icon slot="label" font-class="icon-shengri" required></icon>
+          </x-input>
+        </group>
+        <group>
+          <x-input type="text" placeholder="身份证号码">
+            <icon slot="label" font-class="icon-shenfenzheng"></icon>
           </x-input>
         </group>
       </div>

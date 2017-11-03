@@ -32,6 +32,8 @@
 .icon-wrap{
   display: block;
   padding-right: 10px;
+  text-align: right;
+  width: 36px;
 }
 
 .icon {
